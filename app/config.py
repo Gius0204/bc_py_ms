@@ -27,5 +27,6 @@ CORS_ORIGIN = os.getenv("CORS_ORIGIN", "*")
 ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:8080",
-    "https://instrategy-sales-flow.lovable.app/"
+    "https://instrategy-sales-flow.lovable.app",
+    CORS_ORIGIN
 ]
