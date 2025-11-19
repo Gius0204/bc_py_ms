@@ -27,5 +27,7 @@ CORS_ORIGIN = os.getenv("CORS_ORIGIN", "*")
 ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:8080",
-    CORS_ORIGIN
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "*"  # Permitir todos en producción
 ]
