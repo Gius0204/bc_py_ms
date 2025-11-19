@@ -85,6 +85,7 @@ async def send_email(
         db_result = {"inserted": False, "error": str(e)}
 
     return {
+        "success": True,
         "ok": True,
         "info": {"accepted": recipients, "messageId": msg.get("Message-Id")},
         "db": db_result
