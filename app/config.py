@@ -26,5 +26,6 @@ GMAIL_PASSWORD_APP = os.getenv("GMAIL_PASSWORD_APP")
 CORS_ORIGIN = os.getenv("CORS_ORIGIN", "*")
 ALLOWED_ORIGINS = [
     "http://localhost:8080",
-    "http://127.0.0.1:8080"
+    "http://127.0.0.1:8080",
+    "https://instrategy-sales-flow.lovable.app/"
 ]
