@@ -26,8 +26,5 @@ GMAIL_PASSWORD_APP = os.getenv("GMAIL_PASSWORD_APP")
 CORS_ORIGIN = os.getenv("CORS_ORIGIN", "*")
 ALLOWED_ORIGINS = [
     "http://localhost:8080",
-    "http://127.0.0.1:8080",
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-    "*"  # Permitir todos en producción
+    "http://127.0.0.1:8080"
 ]
