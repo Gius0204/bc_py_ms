@@ -238,7 +238,7 @@ def _map_lead_status_to_hubspot_internal(lead_status: str) -> str:
         "En curso": "IN_PROGRESS",
         "Negocio abierto": "OPEN_DEAL",
         "Sin calificar": "UNQUALIFIED",
-        "Intento de contacto": "ATTEMPTED_TO_CONTA",
+        "Intento de contacto": "ATTEMPTED_TO_CONTACT",
         "Conectado": "CONNECTED",
         "Mal momento": "BAD_TIMING"
     }
